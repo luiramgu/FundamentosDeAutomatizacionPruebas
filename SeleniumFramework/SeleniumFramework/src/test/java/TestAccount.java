@@ -15,12 +15,13 @@ public class TestAccount {
         String username = "juan.piedra@ucreativa.com";
         String password = "asdf";
 
-        String pathToDriver = Test.class.getResource("/chromedriver").getPath();
+        String pathToDriver = Test.class.getResource("/chromedriver.exe").getPath();
         System.setProperty("webdriver.chrome.driver", pathToDriver);
 
         WebDriver driver = new ChromeDriver();
         driver.get("https://demo.opencart.com/");
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
+       // driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
         //Go To Login Page
         driver.findElement(By.xpath("//*[@id=\"top-links\"]/ul/li[2]/a/span[1]")).click();

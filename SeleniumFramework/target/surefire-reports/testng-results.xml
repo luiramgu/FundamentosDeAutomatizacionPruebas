@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Account Tests" duration-ms="74664" started-at="2021-08-05T12:14:07 CST" finished-at="2021-08-05T12:15:22 CST">
+    <groups>
+    </groups>
+    <test name="Login Tests - Chrome" duration-ms="21032" started-at="2021-08-05T12:14:07 CST" finished-at="2021-08-05T12:14:28 CST">
+      <class name="TestAccount">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestAccount@26fb628]" name="beforeTest" is-config="true" duration-ms="51" started-at="2021-08-05T12:14:07 CST" finished-at="2021-08-05T12:14:07 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:TestAccount@26fb628]" name="beforeMethod" is-config="true" duration-ms="7357" started-at="2021-08-05T12:14:07 CST" finished-at="2021-08-05T12:14:15 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test_Login_Successful()[pri:0, instance:TestAccount@26fb628]" name="Test_Login_Successful" duration-ms="3165" started-at="2021-08-05T12:14:15 CST" description="Test Login Success" finished-at="2021-08-05T12:14:19 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login_Successful -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:TestAccount@26fb628]" name="AfterMethod" is-config="true" duration-ms="1501" started-at="2021-08-05T12:14:19 CST" finished-at="2021-08-05T12:14:20 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:TestAccount@26fb628]" name="beforeMethod" is-config="true" duration-ms="4749" started-at="2021-08-05T12:14:20 CST" finished-at="2021-08-05T12:14:25 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test_Login_Unsuccessful()[pri:0, instance:TestAccount@26fb628]" name="Test_Login_Unsuccessful" duration-ms="2079" started-at="2021-08-05T12:14:25 CST" description="Test Login Not Success" finished-at="2021-08-05T12:14:27 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Login_Unsuccessful -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:TestAccount@26fb628]" name="AfterMethod" is-config="true" duration-ms="1427" started-at="2021-08-05T12:14:27 CST" finished-at="2021-08-05T12:14:28 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:TestAccount@26fb628]" name="AfterTest" is-config="true" duration-ms="0" started-at="2021-08-05T12:14:28 CST" finished-at="2021-08-05T12:14:28 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- TestAccount -->
+    </test> <!-- Login Tests - Chrome -->
+    <test name="Search Tests - Firefox" duration-ms="53500" started-at="2021-08-05T12:14:28 CST" finished-at="2021-08-05T12:15:22 CST">
+      <class name="TestSearch">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestSearch@362a019c]" name="beforeTest" is-config="true" duration-ms="1" started-at="2021-08-05T12:14:28 CST" finished-at="2021-08-05T12:14:28 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:TestSearch@362a019c]" name="beforeMethod" is-config="true" duration-ms="9238" started-at="2021-08-05T12:14:28 CST" finished-at="2021-08-05T12:14:38 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test_Empty_Results()[pri:0, instance:TestSearch@362a019c]" name="Test_Empty_Results" duration-ms="30859" started-at="2021-08-05T12:14:38 CST" finished-at="2021-08-05T12:15:09 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Empty_Results -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:TestSearch@362a019c]" name="AfterMethod" is-config="true" duration-ms="2456" started-at="2021-08-05T12:15:09 CST" finished-at="2021-08-05T12:15:11 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:TestSearch@362a019c]" name="beforeMethod" is-config="true" duration-ms="7892" started-at="2021-08-05T12:15:11 CST" finished-at="2021-08-05T12:15:19 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Validate_Search(java.lang.String, java.lang.String)[pri:0, instance:TestSearch@362a019c]" name="Validate_Search" duration-ms="1138" started-at="2021-08-05T12:15:19 CST" finished-at="2021-08-05T12:15:20 CST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iphone]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Search -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:TestSearch@362a019c]" name="AfterMethod" is-config="true" duration-ms="1871" started-at="2021-08-05T12:15:20 CST" finished-at="2021-08-05T12:15:22 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="AfterTest()[pri:0, instance:TestSearch@362a019c]" name="AfterTest" is-config="true" duration-ms="1" started-at="2021-08-05T12:15:22 CST" finished-at="2021-08-05T12:15:22 CST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- TestSearch -->
+    </test> <!-- Search Tests - Firefox -->
+  </suite> <!-- Account Tests -->
+</testng-results>
